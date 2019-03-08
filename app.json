@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/about/about",
+    "pages/weekly/weekly"
+    ],
+
+  "tabBar": 
+  {
+    "list": [
+  
+          
+          {
+           "pagePath": "pages/about/about",
+           "text": "关于",
+            "iconPath": "images/t21.png",
+            "selectedIconPath": "images/t22.png"
+          },
+              {
+                "pagePath": "pages/weekly/weekly",
+                "text": "每周推荐",
+                "iconPath": "images/t11.png",
+                "selectedIconPath": "images/t12.png"
+              }
+    
+    ],    
+
+    "color": "#000000",
+    "selectedColor": "green "
+
+  },
+  
+  
+  
+  "window": 
+  
+  {
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTextStyle": "black",
+        "enablePullDownRefresh": true,
+        "navigationBarTitleText": "小程序"
+  }
+  
+
+
+  
+}
+
+
+
+
